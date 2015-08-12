@@ -1,0 +1,711 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ADD_OP	storage.cc	/^  ADD_OP,$/;"	e	enum:memcached_storage_action_t	file:
+APPEND_OP	storage.cc	/^  APPEND_OP,$/;"	e	enum:memcached_storage_action_t	file:
+CAS_OP	storage.cc	/^  CAS_OP$/;"	e	enum:memcached_storage_action_t	file:
+FD_CLOEXEC	connect.cc	52;"	d	file:
+HUGE_STRING_LEN	common.h	192;"	d
+INVALID_SOCKET	socket.hpp	54;"	d
+LIBMEMCACHED_MEMCACHED_ADD_END	libmemcached_probes.h	61;"	d
+LIBMEMCACHED_MEMCACHED_ADD_END_ENABLED	libmemcached_probes.h	62;"	d
+LIBMEMCACHED_MEMCACHED_ADD_START	libmemcached_probes.h	63;"	d
+LIBMEMCACHED_MEMCACHED_ADD_START_ENABLED	libmemcached_probes.h	64;"	d
+LIBMEMCACHED_MEMCACHED_CONNECT_END	libmemcached_probes.h	65;"	d
+LIBMEMCACHED_MEMCACHED_CONNECT_END_ENABLED	libmemcached_probes.h	66;"	d
+LIBMEMCACHED_MEMCACHED_CONNECT_START	libmemcached_probes.h	67;"	d
+LIBMEMCACHED_MEMCACHED_CONNECT_START_ENABLED	libmemcached_probes.h	68;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_END	libmemcached_probes.h	69;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_END_ENABLED	libmemcached_probes.h	70;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_START	libmemcached_probes.h	71;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_START_ENABLED	libmemcached_probes.h	72;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_WITH_INITIAL_END	libmemcached_probes.h	73;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_WITH_INITIAL_END_ENABLED	libmemcached_probes.h	74;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_WITH_INITIAL_START	libmemcached_probes.h	75;"	d
+LIBMEMCACHED_MEMCACHED_DECREMENT_WITH_INITIAL_START_ENABLED	libmemcached_probes.h	76;"	d
+LIBMEMCACHED_MEMCACHED_DELETE_END	libmemcached_probes.h	77;"	d
+LIBMEMCACHED_MEMCACHED_DELETE_END_ENABLED	libmemcached_probes.h	78;"	d
+LIBMEMCACHED_MEMCACHED_DELETE_START	libmemcached_probes.h	79;"	d
+LIBMEMCACHED_MEMCACHED_DELETE_START_ENABLED	libmemcached_probes.h	80;"	d
+LIBMEMCACHED_MEMCACHED_FLUSH_END	libmemcached_probes.h	81;"	d
+LIBMEMCACHED_MEMCACHED_FLUSH_END_ENABLED	libmemcached_probes.h	82;"	d
+LIBMEMCACHED_MEMCACHED_FLUSH_START	libmemcached_probes.h	83;"	d
+LIBMEMCACHED_MEMCACHED_FLUSH_START_ENABLED	libmemcached_probes.h	84;"	d
+LIBMEMCACHED_MEMCACHED_GET_END	libmemcached_probes.h	85;"	d
+LIBMEMCACHED_MEMCACHED_GET_END_ENABLED	libmemcached_probes.h	86;"	d
+LIBMEMCACHED_MEMCACHED_GET_START	libmemcached_probes.h	87;"	d
+LIBMEMCACHED_MEMCACHED_GET_START_ENABLED	libmemcached_probes.h	88;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_END	libmemcached_probes.h	93;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_END_ENABLED	libmemcached_probes.h	94;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_START	libmemcached_probes.h	95;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_START_ENABLED	libmemcached_probes.h	96;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_WITH_INITIAL_END	libmemcached_probes.h	97;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_WITH_INITIAL_END_ENABLED	libmemcached_probes.h	98;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_WITH_INITIAL_START	libmemcached_probes.h	99;"	d
+LIBMEMCACHED_MEMCACHED_INCREMENT_WITH_INITIAL_START_ENABLED	libmemcached_probes.h	100;"	d
+LIBMEMCACHED_MEMCACHED_MGET_END	libmemcached_probes.h	101;"	d
+LIBMEMCACHED_MEMCACHED_MGET_END_ENABLED	libmemcached_probes.h	102;"	d
+LIBMEMCACHED_MEMCACHED_MGET_START	libmemcached_probes.h	103;"	d
+LIBMEMCACHED_MEMCACHED_MGET_START_ENABLED	libmemcached_probes.h	104;"	d
+LIBMEMCACHED_MEMCACHED_REPLACE_END	libmemcached_probes.h	105;"	d
+LIBMEMCACHED_MEMCACHED_REPLACE_END_ENABLED	libmemcached_probes.h	106;"	d
+LIBMEMCACHED_MEMCACHED_REPLACE_START	libmemcached_probes.h	107;"	d
+LIBMEMCACHED_MEMCACHED_REPLACE_START_ENABLED	libmemcached_probes.h	108;"	d
+LIBMEMCACHED_MEMCACHED_SERVER_ADD_END	libmemcached_probes.h	109;"	d
+LIBMEMCACHED_MEMCACHED_SERVER_ADD_END_ENABLED	libmemcached_probes.h	110;"	d
+LIBMEMCACHED_MEMCACHED_SERVER_ADD_START	libmemcached_probes.h	111;"	d
+LIBMEMCACHED_MEMCACHED_SERVER_ADD_START_ENABLED	libmemcached_probes.h	112;"	d
+LIBMEMCACHED_MEMCACHED_SET_END	libmemcached_probes.h	113;"	d
+LIBMEMCACHED_MEMCACHED_SET_END_ENABLED	libmemcached_probes.h	114;"	d
+LIBMEMCACHED_MEMCACHED_SET_START	libmemcached_probes.h	115;"	d
+LIBMEMCACHED_MEMCACHED_SET_START_ENABLED	libmemcached_probes.h	116;"	d
+LIBMEMCACHED_MEMCACHED_TOUCH_END	libmemcached_probes.h	89;"	d
+LIBMEMCACHED_MEMCACHED_TOUCH_END_ENABLED	libmemcached_probes.h	90;"	d
+LIBMEMCACHED_MEMCACHED_TOUCH_START	libmemcached_probes.h	91;"	d
+LIBMEMCACHED_MEMCACHED_TOUCH_START_ENABLED	libmemcached_probes.h	92;"	d
+MAX_DEPTH	backtrace.cc	/^const int MAX_DEPTH= 50;$/;"	v
+MAX_ERROR_LENGTH	error.cc	46;"	d	file:
+MAX_SERVERS_TO_POLL	io.cc	767;"	d	file:
+MAX_UDP_DATAGRAM_LENGTH	udp.hpp	38;"	d
+MEMCACHED_AT	error.hpp	46;"	d
+MEMCACHED_BLOCK_SIZE	common.h	189;"	d
+MEMCACHED_DEFAULT_COMMAND_SIZE	common.h	190;"	d
+MEMCACHED_FLAG_AUTO_EJECT_HOSTS	flag.hpp	/^  MEMCACHED_FLAG_AUTO_EJECT_HOSTS,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_BINARY_PROTOCOL	flag.hpp	/^  MEMCACHED_FLAG_BINARY_PROTOCOL,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_BUFFER_REQUESTS	flag.hpp	/^  MEMCACHED_FLAG_BUFFER_REQUESTS,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_HASH_WITH_NAMESPACE	flag.hpp	/^  MEMCACHED_FLAG_HASH_WITH_NAMESPACE,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_IS_AES	flag.hpp	/^  MEMCACHED_FLAG_IS_AES,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_IS_FETCHING_VERSION	flag.hpp	/^  MEMCACHED_FLAG_IS_FETCHING_VERSION$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_NO_BLOCK	flag.hpp	/^  MEMCACHED_FLAG_NO_BLOCK,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_RANDOMIZE_REPLICA_READ	flag.hpp	/^  MEMCACHED_FLAG_RANDOMIZE_REPLICA_READ,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_REPLY	flag.hpp	/^  MEMCACHED_FLAG_REPLY,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_SUPPORT_CAS	flag.hpp	/^  MEMCACHED_FLAG_SUPPORT_CAS,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_TCP_KEEPALIVE	flag.hpp	/^  MEMCACHED_FLAG_TCP_KEEPALIVE,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_TCP_NODELAY	flag.hpp	/^  MEMCACHED_FLAG_TCP_NODELAY,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_USE_SORT_HOSTS	flag.hpp	/^  MEMCACHED_FLAG_USE_SORT_HOSTS,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_USE_UDP	flag.hpp	/^  MEMCACHED_FLAG_USE_UDP,$/;"	e	enum:memcached_flag_t
+MEMCACHED_FLAG_VERIFY_KEY	flag.hpp	/^  MEMCACHED_FLAG_VERIFY_KEY,$/;"	e	enum:memcached_flag_t
+MEMCACHED_NI_MAXHOST	instance.hpp	48;"	d
+MEMCACHED_NI_MAXHOST	instance.hpp	50;"	d
+MEMCACHED_NI_MAXSERV	instance.hpp	54;"	d
+MEMCACHED_NI_MAXSERV	instance.hpp	56;"	d
+MEM_READ	io.cc	/^  MEM_READ,$/;"	e	enum:memc_read_or_write	file:
+MEM_WRITE	io.cc	/^  MEM_WRITE$/;"	e	enum:memc_read_or_write	file:
+MSG_DONTWAIT	socket.hpp	73;"	d
+MSG_MORE	socket.hpp	77;"	d
+MSG_NOSIGNAL	socket.hpp	69;"	d
+Memcached	common.h	/^typedef struct memcached_st Memcached;$/;"	t	typeref:struct:memcached_st
+POLLERR	poll.h	38;"	d
+POLLHUP	poll.h	39;"	d
+POLLIN	poll.h	36;"	d
+POLLNVAL	poll.h	40;"	d
+POLLOUT	poll.h	37;"	d
+PREPEND_OP	storage.cc	/^  PREPEND_OP,$/;"	e	enum:memcached_storage_action_t	file:
+PollTimeout	purge.cc	/^  PollTimeout(Memcached* arg) :$/;"	f	class:PollTimeout
+PollTimeout	purge.cc	/^class PollTimeout$/;"	c	file:
+Purge	purge.cc	/^  Purge(Memcached* arg) :$/;"	f	class:Purge
+Purge	purge.cc	/^class Purge$/;"	c	file:
+REPLACE_OP	storage.cc	/^  REPLACE_OP,$/;"	e	enum:memcached_storage_action_t	file:
+SET_OP	storage.cc	/^  SET_OP,$/;"	e	enum:memcached_storage_action_t	file:
+SMALL_STRING_LEN	common.h	191;"	d
+SOCKET_ERROR	socket.hpp	55;"	d
+SOCK_CLOEXEC	connect.cc	44;"	d	file:
+SOCK_NONBLOCK	connect.cc	48;"	d	file:
+SO_NOSIGPIPE	connect.cc	56;"	d	file:
+STRINGIFY	error.hpp	44;"	d
+TCP_KEEPIDLE	connect.cc	64;"	d	file:
+TCP_NODELAY	connect.cc	60;"	d	file:
+TOSTRING	error.hpp	45;"	d
+UDP_DATAGRAM_HEADER_LENGTH	udp.hpp	39;"	d
+UDP_REQUEST_ID_MAX_THREAD_ID	udp.hpp	48;"	d
+UDP_REQUEST_ID_MSG_SIG_DIGITS	udp.hpp	40;"	d
+UDP_REQUEST_ID_THREAD_MASK	udp.hpp	41;"	d
+USE_DEMANGLE	backtrace.cc	54;"	d	file:
+USE_DEMANGLE	backtrace.cc	56;"	d	file:
+WATCHPOINT	watchpoint.h	40;"	d
+WATCHPOINT_ASSERT	watchpoint.h	49;"	d
+WATCHPOINT_ASSERT_INITIALIZED	watchpoint.h	50;"	d
+WATCHPOINT_ASSERT_PRINT	watchpoint.h	48;"	d
+WATCHPOINT_ERRNO	watchpoint.h	47;"	d
+WATCHPOINT_ERROR	watchpoint.h	41;"	d
+WATCHPOINT_IFERROR	watchpoint.h	42;"	d
+WATCHPOINT_IF_LABELED_NUMBER	watchpoint.h	46;"	d
+WATCHPOINT_LABELED_NUMBER	watchpoint.h	45;"	d
+WATCHPOINT_NUMBER	watchpoint.h	44;"	d
+WATCHPOINT_SET	watchpoint.h	51;"	d
+WATCHPOINT_STRING	watchpoint.h	43;"	d
+WIN32_LEAN_AND_MEAN	windows.hpp	46;"	d
+_WIN32_WINNT	windows.hpp	50;"	d
+_WIN32_WINNT	windows.hpp	56;"	d
+_WIN32_WINNT	windows.hpp	57;"	d
+__instance_create_with	instance.cc	/^memcached_instance_st* __instance_create_with(memcached_st *memc,$/;"	f
+__instance_free	instance.cc	/^void __instance_free(memcached_instance_st* self)$/;"	f
+__memcached_free	memcached.cc	/^static void __memcached_free(Memcached *ptr, bool release_st)$/;"	f	file:
+__mget_by_key_real	get.cc	/^static memcached_return_t __mget_by_key_real(memcached_st *ptr,$/;"	f	file:
+__server_create_with	server.cc	/^memcached_server_st *__server_create_with(Memcached *memc,$/;"	f
+__server_free	server.cc	/^void __server_free(memcached_server_st *self)$/;"	f
+_bytes_read	instance.hpp	/^    size_t _bytes_read;$/;"	m	struct:memcached_instance_st::__anon2
+_error_free	error.cc	/^static void _error_free(memcached_error_t *error)$/;"	f	file:
+_error_print	error.cc	/^static void _error_print(const memcached_error_t *error)$/;"	f	file:
+_events	instance.hpp	/^  short _events;$/;"	m	struct:memcached_instance_st
+_generate_hash_wrapper	hash.cc	/^static inline uint32_t _generate_hash_wrapper(const Memcached *ptr, const char *key, size_t key_length)$/;"	f	file:
+_hostname	instance.hpp	/^  char _hostname[MEMCACHED_NI_MAXHOST];$/;"	m	struct:memcached_instance_st
+_init_string	string.cc	/^static inline void _init_string(memcached_string_st *self)$/;"	f	file:
+_io_fill	io.cc	/^static memcached_return_t _io_fill(memcached_instance_st* instance)$/;"	f	file:
+_io_write	io.cc	/^static bool _io_write(memcached_instance_st* instance,$/;"	f	file:
+_is_auto_eject_host	behavior.cc	/^bool _is_auto_eject_host(const memcached_st *ptr)$/;"	f
+_libmemcached_calloc	allocators.cc	/^void *_libmemcached_calloc(const memcached_st *self, size_t nelem, size_t size, void *context)$/;"	f
+_libmemcached_free	allocators.cc	/^void _libmemcached_free(const memcached_st*, void *mem, void*)$/;"	f
+_libmemcached_malloc	allocators.cc	/^void *_libmemcached_malloc(const memcached_st *, size_t size, void *)$/;"	f
+_libmemcached_realloc	allocators.cc	/^void *_libmemcached_realloc(const memcached_st*, void *mem, size_t size, void *)$/;"	f
+_memc	purge.cc	/^  Memcached* _memc;$/;"	m	class:Purge	file:
+_memcached_connect	connect.cc	/^static memcached_return_t _memcached_connect(memcached_instance_st* server, const bool set_last_disconnected)$/;"	f	file:
+_memcached_init	memcached.cc	/^static inline bool _memcached_init(Memcached *self)$/;"	f	file:
+_origin	purge.cc	/^  int32_t& _origin;$/;"	m	class:PollTimeout	file:
+_parse_file_options	options.cc	/^static memcached_return_t _parse_file_options(memcached_st& self, memcached_array_st *real_name)$/;"	f	file:
+_read_one_response	response.cc	/^static memcached_return_t _read_one_response(memcached_instance_st* instance,$/;"	f	file:
+_regen_for_auto_eject	hash.cc	/^static inline void _regen_for_auto_eject(Memcached *ptr)$/;"	f	file:
+_result_init	result.cc	/^static inline void _result_init(memcached_result_st *self,$/;"	f	file:
+_revents	instance.hpp	/^  short _revents;$/;"	m	struct:memcached_instance_st
+_server_create	instance.cc	/^static memcached_instance_st* _server_create(memcached_instance_st* self, const memcached_st *memc)$/;"	f	file:
+_server_create	server.cc	/^static memcached_server_st *_server_create(memcached_server_st *self, const Memcached *memc)$/;"	f	file:
+_server_init	instance.cc	/^static inline void _server_init(memcached_instance_st* self, Memcached *root,$/;"	f	file:
+_server_init	server.cc	/^static inline void _server_init(memcached_server_st *self, Memcached *root,$/;"	f	file:
+_set	error.cc	/^static void _set(Memcached& memc, memcached_string_t *str, memcached_return_t &rc, const char *at, int local_errno= 0)$/;"	f	file:
+_set	error.cc	/^static void _set(memcached_instance_st& server, Memcached& memc)$/;"	f	file:
+_set_encoding_key	encoding_key.cc	/^static void _set_encoding_key(Memcached& memc, const char *key, size_t key_length)$/;"	f	file:
+_set_verbosity	verbosity.cc	/^static memcached_return_t _set_verbosity(const Memcached *,$/;"	f	file:
+_string_check	string.cc	/^inline static memcached_return_t _string_check(memcached_string_st *string, size_t need)$/;"	f	file:
+_timeout	purge.cc	/^  int32_t _timeout;$/;"	m	class:PollTimeout	file:
+_vdo_udp	do.cc	/^static memcached_return_t _vdo_udp(memcached_instance_st* instance,$/;"	f	file:
+address_info	instance.hpp	/^  struct addrinfo *address_info;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::addrinfo
+address_info_next	instance.hpp	/^  struct addrinfo *address_info_next;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::addrinfo
+append_host_to_string	error.cc	/^static inline size_t append_host_to_string(memcached_instance_st& self, char* buffer, const size_t buffer_length)$/;"	f	file:
+args	stats.cc	/^  const char *args;$/;"	m	struct:local_context	file:
+args_length	stats.cc	/^  const size_t args_length;$/;"	m	struct:local_context	file:
+ascii_delete	delete.cc	/^static inline memcached_return_t ascii_delete(memcached_instance_st* instance,$/;"	f	file:
+ascii_dump	dump.cc	/^static memcached_return_t ascii_dump(Memcached *memc, memcached_dump_fn *callback, void *context, uint32_t number_of_callbacks)$/;"	f	file:
+ascii_exist	exist.cc	/^static memcached_return_t ascii_exist(Memcached *memc, memcached_instance_st* instance, const char *key, size_t key_length)$/;"	f	file:
+ascii_stats_fetch	stats.cc	/^static memcached_return_t ascii_stats_fetch(memcached_stat_st *memc_stat,$/;"	f	file:
+ascii_touch	touch.cc	/^static memcached_return_t ascii_touch(memcached_instance_st* instance,$/;"	f	file:
+assert_msg	assert.hpp	47;"	d
+assert_msg	assert.hpp	67;"	d
+assert_vmsg	assert.hpp	48;"	d
+assert_vmsg	assert.hpp	78;"	d
+auto_response	auto.cc	/^static void auto_response(memcached_instance_st* instance, const bool reply,  memcached_return_t& rc, uint64_t* value)$/;"	f	file:
+backoff_handling	connect.cc	/^static memcached_return_t backoff_handling(memcached_instance_st* server, bool& in_timeout)$/;"	f	file:
+binary_delete	delete.cc	/^static inline memcached_return_t binary_delete(memcached_instance_st* instance,$/;"	f	file:
+binary_exist	exist.cc	/^static memcached_return_t binary_exist(Memcached *memc, memcached_instance_st* instance, const char *key, size_t key_length)$/;"	f	file:
+binary_incr_decr	auto.cc	/^static memcached_return_t binary_incr_decr(memcached_instance_st* instance,$/;"	f	file:
+binary_mget_by_key	get.cc	/^static memcached_return_t binary_mget_by_key(memcached_st *ptr,$/;"	f	file:
+binary_read_one_response	response.cc	/^static memcached_return_t binary_read_one_response(memcached_instance_st* instance,$/;"	f	file:
+binary_stats_fetch	stats.cc	/^static memcached_return_t binary_stats_fetch(memcached_stat_st *memc_stat,$/;"	f	file:
+binary_touch	touch.cc	/^static memcached_return_t binary_touch(memcached_instance_st* instance,$/;"	f	file:
+bucket_t	virtual_bucket.c	/^struct bucket_t {$/;"	s	file:
+buckets	virtual_bucket.c	/^  struct bucket_t buckets[];$/;"	m	struct:memcached_virtual_bucket_t	typeref:struct:memcached_virtual_bucket_t::bucket_t	file:
+buffer	io.h	/^  const void *buffer;$/;"	m	struct:libmemcached_io_vector_st
+buffer	verbosity.cc	/^  const char *buffer;$/;"	m	struct:context_st	file:
+c_str	array.c	/^  char c_str[];$/;"	m	struct:memcached_array_st	file:
+calc_average_item_size	analyze.cc	/^static void calc_average_item_size(memcached_analysis_st *result,$/;"	f	file:
+calc_hit_ratio	analyze.cc	/^static void calc_hit_ratio(memcached_analysis_st *result,$/;"	f	file:
+calc_largest_consumption	analyze.cc	/^static void calc_largest_consumption(memcached_analysis_st *result,$/;"	f	file:
+calc_least_free_node	analyze.cc	/^static void calc_least_free_node(memcached_analysis_st *result,$/;"	f	file:
+calc_oldest_node	analyze.cc	/^static void calc_oldest_node(memcached_analysis_st *result,$/;"	f	file:
+call_stat_fn	stats.cc	/^static memcached_return_t call_stat_fn(memcached_st *memc,$/;"	f	file:
+can_by_encrypted	storage.cc	/^static inline uint8_t can_by_encrypted(const memcached_storage_action_t verb)$/;"	f	file:
+clear_addrinfo	instance.hpp	/^  void clear_addrinfo()$/;"	f	struct:memcached_instance_st
+close_socket	io.cc	/^void memcached_instance_st::close_socket()$/;"	f	class:memcached_instance_st
+closesocket	socket.hpp	56;"	d
+compare_servers	hosts.cc	/^static int compare_servers(const void *p1, const void *p2)$/;"	f	file:
+connect_poll	connect.cc	/^static memcached_return_t connect_poll(memcached_instance_st* server, const int connection_error)$/;"	f	file:
+context	stats.cc	/^  void *context;$/;"	m	struct:local_context	file:
+context_st	verbosity.cc	/^struct context_st$/;"	s	file:
+continuum_item_cmp	hosts.cc	/^static int continuum_item_cmp(const void *t1, const void *t2)$/;"	f	file:
+cursor_active_	instance.hpp	/^  uint32_t cursor_active_;$/;"	m	struct:memcached_instance_st
+custom_backtrace	backtrace.cc	/^void custom_backtrace(void)$/;"	f
+disable	instance.hpp	/^  void disable()$/;"	f	struct:memcached_instance_st
+dispatch_host	hash.cc	/^static uint32_t dispatch_host(const Memcached *ptr, uint32_t hash)$/;"	f	file:
+drain_instance	quit.cc	/^  void drain_instance(memcached_instance_st* instance)$/;"	f	namespace:__anon3
+enable	instance.hpp	/^  void enable()$/;"	f	struct:memcached_instance_st
+error_messages	instance.hpp	/^  struct memcached_error_t *error_messages;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::memcached_error_t
+events	instance.cc	/^void memcached_instance_st::events(short arg)$/;"	f	class:memcached_instance_st
+events	instance.hpp	/^  short events(void)$/;"	f	struct:memcached_instance_st
+events	poll.h	/^  short events;$/;"	m	struct:pollfd
+fd	instance.hpp	/^  memcached_socket_t fd;$/;"	m	struct:memcached_instance_st
+fd	poll.h	/^  SOCKET fd;$/;"	m	struct:pollfd
+forward	virtual_bucket.c	/^  uint32_t forward;$/;"	m	struct:bucket_t	file:
+func	stats.cc	/^  memcached_stat_fn func;$/;"	m	struct:local_context	file:
+generate_hash	hash.cc	/^static inline uint32_t generate_hash(const Memcached *ptr, const char *key, size_t key_length)$/;"	f	file:
+generate_udp_request_thread_id	udp.hpp	47;"	d
+get_com_code	storage.cc	/^static inline uint8_t get_com_code(const memcached_storage_action_t verb, const bool reply)$/;"	f	file:
+get_msg_num_from_request_id	udp.hpp	45;"	d
+get_password	sasl.cc	/^static int get_password(sasl_conn_t *conn, void *context, int id,$/;"	f	file:
+get_socket_errno	socket.hpp	51;"	d
+get_socket_errno	socket.hpp	57;"	d
+get_thread_id_from_request_id	udp.hpp	46;"	d
+get_udp_datagram_num_datagrams	udp.hpp	44;"	d
+get_udp_datagram_request_id	udp.hpp	42;"	d
+get_udp_datagram_seq_num	udp.hpp	43;"	d
+get_username	sasl.cc	/^static int get_username(void *context, int id, const char **result, unsigned int *len)$/;"	f	file:
+has_forward	virtual_bucket.c	/^  bool has_forward;$/;"	m	struct:memcached_virtual_bucket_t	file:
+hostname	instance.hpp	/^  const char* hostname()$/;"	f	struct:memcached_instance_st
+hostname	instance.hpp	/^  void hostname(const memcached_string_t& hostname_)$/;"	f	struct:memcached_instance_st
+increment_decrement_by_key	auto.cc	/^static memcached_return_t increment_decrement_by_key(const protocol_binary_command command,$/;"	f	file:
+increment_decrement_with_initial_by_key	auto.cc	/^static memcached_return_t increment_decrement_with_initial_by_key(const protocol_binary_command command,$/;"	f	file:
+increment_udp_message_id	udp.cc	/^void increment_udp_message_id(memcached_instance_st* ptr)$/;"	f
+index	continuum.hpp	/^  uint32_t index;$/;"	m	struct:memcached_continuum_item_st
+initialize_binary_request	io.cc	/^void initialize_binary_request(memcached_instance_st* server, protocol_binary_request_header& header)$/;"	f
+initialize_const_query	initialize_query.cc	/^memcached_return_t initialize_const_query(const Memcached *self)$/;"	f
+initialize_query	initialize_query.cc	/^memcached_return_t initialize_query(Memcached *self, bool increment_query_id)$/;"	f
+io_bytes_sent	instance.hpp	/^  uint32_t io_bytes_sent; \/* # bytes sent since last read *\/$/;"	m	struct:memcached_instance_st
+io_flush	io.cc	/^static bool io_flush(memcached_instance_st* instance,$/;"	f	file:
+io_wait	io.cc	/^static memcached_return_t io_wait(memcached_instance_st* instance,$/;"	f	file:
+io_wait_count	instance.hpp	/^  } io_wait_count;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::__anon2
+is_allocated	instance.hpp	/^    bool is_allocated;$/;"	m	struct:memcached_instance_st::__anon1
+is_dead	instance.hpp	/^    bool is_dead;$/;"	m	struct:memcached_instance_st::__anon1
+is_initialized	instance.hpp	/^    bool is_initialized;$/;"	m	struct:memcached_instance_st::__anon1
+is_shutting_down	instance.cc	/^bool memcached_instance_st::is_shutting_down() const$/;"	f	class:memcached_instance_st
+is_shutting_down	instance.hpp	/^    bool is_shutting_down;$/;"	m	struct:memcached_instance_st::__anon1
+ketama_server_hash	hosts.cc	/^static uint32_t ketama_server_hash(const char *key, size_t key_length, uint32_t alignment)$/;"	f	file:
+length	io.h	/^  size_t length;$/;"	m	struct:libmemcached_io_vector_st
+length	verbosity.cc	/^  size_t length;$/;"	m	struct:context_st	file:
+libmemcached_calloc	memory.h	/^static inline void *libmemcached_calloc(const memcached_st *self, size_t nelem, size_t size)$/;"	f
+libmemcached_check_configuration	options.cc	/^memcached_return_t libmemcached_check_configuration(const char *option_string, size_t length, char *error_buffer, size_t error_buffer_size)$/;"	f
+libmemcached_free	memory.h	/^static inline void libmemcached_free(const memcached_st *self, void *mem)$/;"	f
+libmemcached_io_vector_st	io.h	/^struct libmemcached_io_vector_st$/;"	s
+libmemcached_malloc	memory.h	/^static inline void *libmemcached_malloc(const memcached_st *self, const size_t size)$/;"	f
+libmemcached_realloc	memory.h	/^static inline void *libmemcached_realloc(const memcached_st *self, void *mem, size_t nmemb,  const size_t size)$/;"	f
+libmemcached_string_behavior	behavior.cc	/^const char *libmemcached_string_behavior(const memcached_behavior_t flag)$/;"	f
+libmemcached_string_distribution	behavior.cc	/^const char *libmemcached_string_distribution(const memcached_server_distribution_t flag)$/;"	f
+libmemcached_string_hash	hash.cc	/^const char * libmemcached_string_hash(memcached_hash_t type)$/;"	f
+libmemcached_xcalloc	memory.h	111;"	d
+libmemcached_xmalloc	memory.h	80;"	d
+libmemcached_xrealloc	memory.h	95;"	d
+libmemcached_xvalloc	memory.h	96;"	d
+likely	common.h	180;"	d
+likely	common.h	185;"	d
+limit_maxbytes	instance.hpp	/^  uint64_t limit_maxbytes;$/;"	m	struct:memcached_instance_st
+local_context	stats.cc	/^  local_context(memcached_stat_fn func_arg,$/;"	f	struct:local_context
+local_context	stats.cc	/^struct local_context$/;"	s	file:
+local_errno	error.cc	/^  int local_errno;$/;"	m	struct:memcached_error_t	file:
+major_version	instance.hpp	/^  uint8_t major_version; \/\/ Default definition of UINT8_MAX means that it has not been set.$/;"	m	struct:memcached_instance_st
+mark_server_as_clean	instance.hpp	/^  void mark_server_as_clean()$/;"	f	struct:memcached_instance_st
+master	virtual_bucket.c	/^  uint32_t master;$/;"	m	struct:bucket_t	file:
+memc_read_or_write	io.cc	/^enum memc_read_or_write {$/;"	g	file:
+memcached	memcached.cc	/^memcached_st *memcached(const char *string, size_t length)$/;"	f
+memcached2Memcached	is.h	95;"	d
+memcached_add	storage.cc	/^memcached_return_t memcached_add(memcached_st *ptr,$/;"	f
+memcached_add_by_key	storage.cc	/^memcached_return_t memcached_add_by_key(memcached_st *ptr,$/;"	f
+memcached_allocators_return_default	allocators.cc	/^struct memcached_allocator_t memcached_allocators_return_default(void)$/;"	f
+memcached_analyze	analyze.cc	/^memcached_analysis_st *memcached_analyze(memcached_st *shell,$/;"	f
+memcached_analyze_free	analyze.cc	/^void memcached_analyze_free(memcached_analysis_st *ptr)$/;"	f
+memcached_append	storage.cc	/^memcached_return_t memcached_append(memcached_st *ptr,$/;"	f
+memcached_append_by_key	storage.cc	/^memcached_return_t memcached_append_by_key(memcached_st *ptr,$/;"	f
+memcached_array_clone	array.c	/^memcached_array_st *memcached_array_clone(Memcached *memc, const memcached_array_st *original)$/;"	f
+memcached_array_free	array.c	/^void memcached_array_free(memcached_array_st *array)$/;"	f
+memcached_array_is_null	array.c	/^bool memcached_array_is_null(memcached_array_st *array)$/;"	f
+memcached_array_length	string.hpp	45;"	d
+memcached_array_size	array.c	/^size_t memcached_array_size(memcached_array_st *array)$/;"	f
+memcached_array_st	array.c	/^struct memcached_array_st$/;"	s	file:
+memcached_array_string	array.c	/^const char *memcached_array_string(memcached_array_st *array)$/;"	f
+memcached_array_to_string	array.c	/^memcached_string_t memcached_array_to_string(memcached_array_st *array)$/;"	f
+memcached_autoeject	hash.cc	/^void memcached_autoeject(memcached_st *ptr)$/;"	f
+memcached_behavior_get	behavior.cc	/^uint64_t memcached_behavior_get(memcached_st *shell,$/;"	f
+memcached_behavior_get_distribution	behavior.cc	/^memcached_server_distribution_t memcached_behavior_get_distribution(memcached_st *shell)$/;"	f
+memcached_behavior_get_distribution_hash	behavior.cc	/^memcached_hash_t memcached_behavior_get_distribution_hash(memcached_st *shell)$/;"	f
+memcached_behavior_get_key_hash	behavior.cc	/^memcached_hash_t memcached_behavior_get_key_hash(memcached_st *shell)$/;"	f
+memcached_behavior_set	behavior.cc	/^memcached_return_t memcached_behavior_set(memcached_st *shell,$/;"	f
+memcached_behavior_set_distribution	behavior.cc	/^memcached_return_t memcached_behavior_set_distribution(memcached_st *shell, memcached_server_distribution_t type)$/;"	f
+memcached_behavior_set_distribution_hash	behavior.cc	/^memcached_return_t memcached_behavior_set_distribution_hash(memcached_st *shell, memcached_hash_t type)$/;"	f
+memcached_behavior_set_key_hash	behavior.cc	/^memcached_return_t memcached_behavior_set_key_hash(memcached_st *shell, memcached_hash_t type)$/;"	f
+memcached_bucket_set	behavior.cc	/^memcached_return_t memcached_bucket_set(memcached_st *shell,$/;"	f
+memcached_callback_get	callback.cc	/^void *memcached_callback_get(memcached_st *shell,$/;"	f
+memcached_callback_set	callback.cc	/^memcached_return_t memcached_callback_set(memcached_st *shell,$/;"	f
+memcached_cas	storage.cc	/^memcached_return_t memcached_cas(memcached_st *ptr,$/;"	f
+memcached_cas_by_key	storage.cc	/^memcached_return_t memcached_cas_by_key(memcached_st *ptr,$/;"	f
+memcached_clone	memcached.cc	/^memcached_st *memcached_clone(memcached_st *clone, const memcached_st *source)$/;"	f
+memcached_clone_sasl	sasl.cc	/^memcached_return_t memcached_clone_sasl(memcached_st *, const  memcached_st *)$/;"	f
+memcached_clone_sasl	sasl.cc	/^memcached_return_t memcached_clone_sasl(memcached_st *clone, const  memcached_st *source)$/;"	f
+memcached_close_socket	socket.hpp	/^static inline void memcached_close_socket(memcached_socket_t& socket_fd)$/;"	f
+memcached_connect	connect.cc	/^memcached_return_t memcached_connect(memcached_instance_st* server)$/;"	f
+memcached_continuum_item_st	continuum.hpp	/^struct memcached_continuum_item_st$/;"	s
+memcached_create	memcached.cc	/^memcached_st *memcached_create(memcached_st *shell)$/;"	f
+memcached_decrement	auto.cc	/^memcached_return_t memcached_decrement(memcached_st *memc,$/;"	f
+memcached_decrement_by_key	auto.cc	/^memcached_return_t memcached_decrement_by_key(memcached_st *shell,$/;"	f
+memcached_decrement_with_initial	auto.cc	/^memcached_return_t memcached_decrement_with_initial(memcached_st *memc,$/;"	f
+memcached_decrement_with_initial_by_key	auto.cc	/^memcached_return_t memcached_decrement_with_initial_by_key(memcached_st *shell,$/;"	f
+memcached_delete	delete.cc	/^memcached_return_t memcached_delete(memcached_st *shell, const char *key, size_t key_length,$/;"	f
+memcached_delete_by_key	delete.cc	/^memcached_return_t memcached_delete_by_key(memcached_st *shell,$/;"	f
+memcached_destroy_sasl_auth_data	sasl.cc	/^memcached_return_t memcached_destroy_sasl_auth_data(memcached_st *shell)$/;"	f
+memcached_dump	dump.cc	/^memcached_return_t memcached_dump(memcached_st *shell, memcached_dump_fn *callback, void *context, uint32_t number_of_callbacks)$/;"	f
+memcached_error	error.cc	/^const char *memcached_error(const memcached_st *memc)$/;"	f
+memcached_error_copy	error.cc	/^memcached_error_t *memcached_error_copy(const memcached_instance_st& server)$/;"	f
+memcached_error_free	error.cc	/^void memcached_error_free(Memcached& self)$/;"	f
+memcached_error_free	error.cc	/^void memcached_error_free(memcached_instance_st& self)$/;"	f
+memcached_error_free	error.cc	/^void memcached_error_free(memcached_server_st& self)$/;"	f
+memcached_error_print	error.cc	/^void memcached_error_print(const Memcached *shell)$/;"	f
+memcached_error_t	error.cc	/^struct memcached_error_t$/;"	s	file:
+memcached_exist	exist.cc	/^memcached_return_t memcached_exist(memcached_st *memc, const char *key, size_t key_length)$/;"	f
+memcached_exist_by_key	exist.cc	/^memcached_return_t memcached_exist_by_key(memcached_st *shell,$/;"	f
+memcached_fetch	fetch.cc	/^char *memcached_fetch(memcached_st *shell, char *key, size_t *key_length, $/;"	f
+memcached_fetch_execute	fetch.cc	/^memcached_return_t memcached_fetch_execute(memcached_st *shell, $/;"	f
+memcached_fetch_result	fetch.cc	/^memcached_result_st *memcached_fetch_result(memcached_st *ptr,$/;"	f
+memcached_flag	flag.cc	/^bool memcached_flag(const memcached_st& memc, const memcached_flag_t flag)$/;"	f
+memcached_flag	flag.cc	/^void memcached_flag(memcached_st& memc, const memcached_flag_t flag, const bool arg)$/;"	f
+memcached_flag_t	flag.hpp	/^enum memcached_flag_t$/;"	g
+memcached_flush	flush.cc	/^memcached_return_t memcached_flush(memcached_st *shell, time_t expiration)$/;"	f
+memcached_flush_binary	flush.cc	/^static memcached_return_t memcached_flush_binary(Memcached *ptr, $/;"	f	file:
+memcached_flush_buffers	flush_buffers.cc	/^memcached_return_t memcached_flush_buffers(memcached_st *shell)$/;"	f
+memcached_flush_textual	flush.cc	/^static memcached_return_t memcached_flush_textual(Memcached *ptr, $/;"	f	file:
+memcached_free	memcached.cc	/^void memcached_free(memcached_st *ptr)$/;"	f
+memcached_generate_hash	hash.cc	/^uint32_t memcached_generate_hash(const memcached_st *shell, const char *key, size_t key_length)$/;"	f
+memcached_generate_hash_value	hash.cc	/^uint32_t memcached_generate_hash_value(const char *key, size_t key_length, memcached_hash_t hash_algorithm)$/;"	f
+memcached_generate_hash_with_redistribution	hash.cc	/^uint32_t memcached_generate_hash_with_redistribution(memcached_st *ptr, const char *key, size_t key_length)$/;"	f
+memcached_get	get.cc	/^char *memcached_get(memcached_st *ptr, const char *key,$/;"	f
+memcached_get_by_key	get.cc	/^char *memcached_get_by_key(memcached_st *shell,$/;"	f
+memcached_get_hashkit	hash.cc	/^const hashkit_st *memcached_get_hashkit(const memcached_st *shell)$/;"	f
+memcached_get_memory_allocators	allocators.cc	/^void memcached_get_memory_allocators(const memcached_st *shell,$/;"	f
+memcached_get_memory_allocators_context	allocators.cc	/^void *memcached_get_memory_allocators_context(const memcached_st *shell)$/;"	f
+memcached_get_namespace	namespace.cc	/^const char * memcached_get_namespace(Memcached& memc)$/;"	f
+memcached_get_sasl_callbacks	sasl.cc	/^sasl_callback_t *memcached_get_sasl_callbacks(memcached_st *)$/;"	f
+memcached_get_sasl_callbacks	sasl.cc	/^sasl_callback_t *memcached_get_sasl_callbacks(memcached_st *shell)$/;"	f
+memcached_get_user_data	memcached.cc	/^void *memcached_get_user_data(const memcached_st *shell)$/;"	f
+memcached_has_current_error	error.cc	/^bool memcached_has_current_error(Memcached &memc)$/;"	f
+memcached_has_current_error	error.cc	/^bool memcached_has_current_error(memcached_instance_st& server)$/;"	f
+memcached_has_error	is.h	85;"	d
+memcached_has_replicas	is.h	87;"	d
+memcached_has_root	is.h	83;"	d
+memcached_htonll	byteorder.cc	/^uint64_t memcached_htonll(uint64_t value)$/;"	f
+memcached_increment	auto.cc	/^memcached_return_t memcached_increment(memcached_st *memc,$/;"	f
+memcached_increment_by_key	auto.cc	/^memcached_return_t memcached_increment_by_key(memcached_st *shell,$/;"	f
+memcached_increment_with_initial	auto.cc	/^memcached_return_t memcached_increment_with_initial(memcached_st *memc,$/;"	f
+memcached_increment_with_initial_by_key	auto.cc	/^memcached_return_t memcached_increment_with_initial_by_key(memcached_st *shell,$/;"	f
+memcached_instance_by_position	memcached.cc	/^memcached_instance_st* memcached_instance_by_position(const memcached_st *shell, uint32_t server_key)$/;"	f
+memcached_instance_clone	instance.cc	/^static memcached_instance_st* memcached_instance_clone(memcached_instance_st* source)$/;"	f	file:
+memcached_instance_error_return	error.cc	/^memcached_return_t memcached_instance_error_return(memcached_instance_st* instance)$/;"	f
+memcached_instance_fetch	memcached.cc	/^memcached_instance_st* memcached_instance_fetch(Memcached *ptr, uint32_t server_key)$/;"	f
+memcached_instance_free	instance.cc	/^void memcached_instance_free(memcached_instance_st* self)$/;"	f
+memcached_instance_list	memcached.cc	/^memcached_instance_st* memcached_instance_list(const memcached_st *shell)$/;"	f
+memcached_instance_list_count	server_list.cc	/^uint32_t memcached_instance_list_count(const memcached_st* self)$/;"	f
+memcached_instance_list_free	server_list.cc	/^void memcached_instance_list_free(memcached_instance_st* self, uint32_t instance_count)$/;"	f
+memcached_instance_next_retry	instance.cc	/^void memcached_instance_next_retry(const memcached_instance_st * self, const time_t absolute_time)$/;"	f
+memcached_instance_push	hosts.cc	/^memcached_return_t memcached_instance_push(memcached_st *ptr, const struct memcached_instance_st* list, uint32_t number_of_hosts)$/;"	f
+memcached_instance_response_decrement	common.h	212;"	d
+memcached_instance_response_increment	common.h	211;"	d
+memcached_instance_response_reset	common.h	213;"	d
+memcached_instance_set	server_list.cc	/^void memcached_instance_set(memcached_st* memc, memcached_instance_st* list, const uint32_t host_list_size)$/;"	f
+memcached_instance_st	instance.hpp	/^struct memcached_instance_st {$/;"	s
+memcached_io_get_readable_server	io.cc	/^memcached_instance_st* memcached_io_get_readable_server(Memcached *memc, memcached_return_t&)$/;"	f
+memcached_io_init_udp_header	udp.cc	/^bool memcached_io_init_udp_header(memcached_instance_st* ptr, const uint16_t thread_id)$/;"	f
+memcached_io_read	io.cc	/^memcached_return_t memcached_io_read(memcached_instance_st* instance,$/;"	f
+memcached_io_readline	io.cc	/^memcached_return_t memcached_io_readline(memcached_instance_st* instance,$/;"	f
+memcached_io_reset	io.cc	/^void memcached_io_reset(memcached_instance_st* instance)$/;"	f
+memcached_io_slurp	io.cc	/^memcached_return_t memcached_io_slurp(memcached_instance_st* instance)$/;"	f
+memcached_io_wait_for_read	io.cc	/^memcached_return_t memcached_io_wait_for_read(memcached_instance_st* instance)$/;"	f
+memcached_io_wait_for_write	io.cc	/^memcached_return_t memcached_io_wait_for_write(memcached_instance_st* instance)$/;"	f
+memcached_io_write	io.cc	/^bool memcached_io_write(memcached_instance_st* instance)$/;"	f
+memcached_io_write	io.cc	/^ssize_t memcached_io_write(memcached_instance_st* instance,$/;"	f
+memcached_io_writev	io.cc	/^bool memcached_io_writev(memcached_instance_st* instance,$/;"	f
+memcached_is_aes	is.h	47;"	d
+memcached_is_allocated	is.h	41;"	d
+memcached_is_auto_eject_hosts	is.h	59;"	d
+memcached_is_binary	is.h	50;"	d
+memcached_is_buffering	is.h	52;"	d
+memcached_is_cas	is.h	54;"	d
+memcached_is_consistent_distribution	behavior.cc	/^bool memcached_is_consistent_distribution(const Memcached* memc)$/;"	f
+memcached_is_encrypted	is.h	42;"	d
+memcached_is_fetching_version	is.h	51;"	d
+memcached_is_hash_with_namespace	is.h	57;"	d
+memcached_is_initialized	is.h	43;"	d
+memcached_is_no_block	is.h	56;"	d
+memcached_is_processing_input	is.h	45;"	d
+memcached_is_purging	is.h	44;"	d
+memcached_is_randomize_replica_read	is.h	55;"	d
+memcached_is_ready	is.h	62;"	d
+memcached_is_replying	is.h	53;"	d
+memcached_is_tcp_nodelay	is.h	58;"	d
+memcached_is_udp	is.h	48;"	d
+memcached_is_use_sort_hosts	is.h	60;"	d
+memcached_is_valid_filename	server.hpp	/^static inline bool memcached_is_valid_filename(const memcached_string_t& arg)$/;"	f
+memcached_is_valid_servername	server.hpp	/^static inline bool memcached_is_valid_servername(const memcached_string_t& arg)$/;"	f
+memcached_is_verify_key	is.h	49;"	d
+memcached_is_weighted_ketama	is.h	64;"	d
+memcached_key_test	key.cc	/^memcached_return_t memcached_key_test(memcached_st &memc,$/;"	f
+memcached_last_error	error.cc	/^memcached_return_t memcached_last_error(const memcached_st *shell)$/;"	f
+memcached_last_error_errno	error.cc	/^int memcached_last_error_errno(const memcached_st *shell)$/;"	f
+memcached_last_error_message	error.cc	/^const char *memcached_last_error_message(const memcached_st *shell)$/;"	f
+memcached_lib_version	version.cc	/^const char * memcached_lib_version(void) $/;"	f
+memcached_literal_param	string.hpp	42;"	d
+memcached_literal_param_size	string.hpp	43;"	d
+memcached_mark_server_for_timeout	server.hpp	/^static inline void memcached_mark_server_for_timeout(memcached_instance_st* server)$/;"	f
+memcached_mget	get.cc	/^memcached_return_t memcached_mget(memcached_st *ptr,$/;"	f
+memcached_mget_by_key	get.cc	/^memcached_return_t memcached_mget_by_key(memcached_st *shell,$/;"	f
+memcached_mget_execute	get.cc	/^memcached_return_t memcached_mget_execute(memcached_st *ptr,$/;"	f
+memcached_mget_execute_by_key	get.cc	/^memcached_return_t memcached_mget_execute_by_key(memcached_st *shell,$/;"	f
+memcached_ntohll	byteorder.cc	/^uint64_t memcached_ntohll(uint64_t value)$/;"	f
+memcached_param_array	array.h	64;"	d
+memcached_param_array	array.h	67;"	d
+memcached_parse_configuration	options.cc	/^memcached_return_t memcached_parse_configuration(memcached_st *self, char const *option_string, size_t length)$/;"	f
+memcached_parse_configure_file	options.cc	/^memcached_return_t memcached_parse_configure_file(memcached_st& self, const char *filename, size_t length)$/;"	f
+memcached_parse_configure_file	options.cc	/^memcached_return_t memcached_parse_configure_file(memcached_st& self, memcached_array_st& filename)$/;"	f
+memcached_parse_filename	options.cc	/^const char *memcached_parse_filename(memcached_st *memc)$/;"	f
+memcached_parse_filename_length	options.cc	/^size_t memcached_parse_filename_length(memcached_st *memc)$/;"	f
+memcached_prepend	storage.cc	/^memcached_return_t memcached_prepend(memcached_st *ptr,$/;"	f
+memcached_prepend_by_key	storage.cc	/^memcached_return_t memcached_prepend_by_key(memcached_st *ptr,$/;"	f
+memcached_print_array	array.h	63;"	d
+memcached_print_array	array.h	66;"	d
+memcached_purge	purge.cc	/^bool memcached_purge(memcached_instance_st* ptr)$/;"	f
+memcached_push	memcached.cc	/^memcached_return_t memcached_push(memcached_st *destination, const memcached_st *source)$/;"	f
+memcached_query_id	memcached.cc	/^uint64_t memcached_query_id(const memcached_st *shell)$/;"	f
+memcached_quit	quit.cc	/^void memcached_quit(memcached_st *shell)$/;"	f
+memcached_quit_server	quit.cc	/^void memcached_quit_server(memcached_instance_st* instance, bool io_death)$/;"	f
+memcached_read_one_response	response.cc	/^memcached_return_t memcached_read_one_response(memcached_instance_st* instance,$/;"	f
+memcached_replace	storage.cc	/^memcached_return_t memcached_replace(memcached_st *ptr,$/;"	f
+memcached_replace_by_key	storage.cc	/^memcached_return_t memcached_replace_by_key(memcached_st *ptr,$/;"	f
+memcached_reset	memcached.cc	/^memcached_return_t memcached_reset(memcached_st *shell)$/;"	f
+memcached_reset_last_disconnected_server	memcached.cc	/^void memcached_reset_last_disconnected_server(memcached_st *shell)$/;"	f
+memcached_response	response.cc	/^memcached_return_t memcached_response(memcached_instance_st* instance,$/;"	f
+memcached_result_cas	result.cc	/^uint64_t memcached_result_cas(const memcached_result_st *self)$/;"	f
+memcached_result_create	result.cc	/^memcached_result_st *memcached_result_create(const memcached_st *shell,$/;"	f
+memcached_result_flags	result.cc	/^uint32_t memcached_result_flags(const memcached_result_st *self)$/;"	f
+memcached_result_free	result.cc	/^void memcached_result_free(memcached_result_st *ptr)$/;"	f
+memcached_result_key_length	result.cc	/^size_t memcached_result_key_length(const memcached_result_st *self)$/;"	f
+memcached_result_key_value	result.cc	/^const char *memcached_result_key_value(const memcached_result_st *self)$/;"	f
+memcached_result_length	result.cc	/^size_t memcached_result_length(const memcached_result_st *self)$/;"	f
+memcached_result_reset	result.cc	/^void memcached_result_reset(memcached_result_st *ptr)$/;"	f
+memcached_result_reset_value	result.cc	/^void memcached_result_reset_value(memcached_result_st *ptr)$/;"	f
+memcached_result_set_expiration	result.cc	/^void memcached_result_set_expiration(memcached_result_st *self, time_t expiration)$/;"	f
+memcached_result_set_flags	result.cc	/^void memcached_result_set_flags(memcached_result_st *self, uint32_t flags)$/;"	f
+memcached_result_set_value	result.cc	/^memcached_return_t memcached_result_set_value(memcached_result_st *ptr,$/;"	f
+memcached_result_take_value	result.cc	/^char *memcached_result_take_value(memcached_result_st *self)$/;"	f
+memcached_result_value	result.cc	/^const char *memcached_result_value(const memcached_result_st *self)$/;"	f
+memcached_safe_read	io.cc	/^memcached_return_t memcached_safe_read(memcached_instance_st* instance,$/;"	f
+memcached_sasl_authenticate_connection	sasl.cc	/^memcached_return_t memcached_sasl_authenticate_connection(memcached_instance_st* server)$/;"	f
+memcached_send	storage.cc	/^static inline memcached_return_t memcached_send(memcached_st *shell,$/;"	f	file:
+memcached_send_ascii	storage.cc	/^static memcached_return_t memcached_send_ascii(Memcached *ptr,$/;"	f	file:
+memcached_send_binary	storage.cc	/^static memcached_return_t memcached_send_binary(Memcached *ptr,$/;"	f	file:
+memcached_server_add	hosts.cc	/^memcached_return_t memcached_server_add(memcached_st *shell,$/;"	f
+memcached_server_add_parsed	hosts.cc	/^memcached_return_t memcached_server_add_parsed(memcached_st *ptr,$/;"	f
+memcached_server_add_udp	hosts.cc	/^memcached_return_t memcached_server_add_udp(memcached_st *ptr,$/;"	f
+memcached_server_add_udp_with_weight	hosts.cc	/^memcached_return_t memcached_server_add_udp_with_weight(memcached_st *shell,$/;"	f
+memcached_server_add_unix_socket	hosts.cc	/^memcached_return_t memcached_server_add_unix_socket(memcached_st *ptr,$/;"	f
+memcached_server_add_unix_socket_with_weight	hosts.cc	/^memcached_return_t memcached_server_add_unix_socket_with_weight(memcached_st *shell,$/;"	f
+memcached_server_add_with_weight	hosts.cc	/^memcached_return_t memcached_server_add_with_weight(memcached_st *shell,$/;"	f
+memcached_server_by_key	instance.cc	/^const memcached_instance_st * memcached_server_by_key(memcached_st *shell,$/;"	f
+memcached_server_count	server.cc	/^uint32_t memcached_server_count(const memcached_st *self)$/;"	f
+memcached_server_cursor	instance.cc	/^memcached_return_t memcached_server_cursor(const memcached_st* shell,$/;"	f
+memcached_server_error	error.cc	/^const char *memcached_server_error(const memcached_instance_st * server)$/;"	f
+memcached_server_error_reset	server.cc	/^void memcached_server_error_reset(memcached_server_st *self)$/;"	f
+memcached_server_error_return	error.cc	/^memcached_return_t memcached_server_error_return(const memcached_instance_st * ptr)$/;"	f
+memcached_server_execute	instance.cc	/^memcached_return_t memcached_server_execute(memcached_st *memc,$/;"	f
+memcached_server_execute_fn	server_instance.h	/^typedef memcached_return_t (*memcached_server_execute_fn)(memcached_st *ptr, memcached_server_write_instance_st server, void *context);$/;"	t
+memcached_server_free	server.cc	/^void memcached_server_free(memcached_server_st *self)$/;"	f
+memcached_server_get_last_disconnect	instance.cc	/^const memcached_instance_st * memcached_server_get_last_disconnect(const memcached_st *shell)$/;"	f
+memcached_server_instance_by_position	memcached.cc	/^const memcached_instance_st * memcached_server_instance_by_position(const memcached_st *shell, uint32_t server_key)$/;"	f
+memcached_server_list_append	server_list.cc	/^memcached_server_list_append(memcached_server_list_st ptr,$/;"	f
+memcached_server_list_append_with_weight	server_list.cc	/^memcached_server_list_append_with_weight(memcached_server_list_st ptr,$/;"	f
+memcached_server_list_count	server_list.cc	/^uint32_t memcached_server_list_count(const memcached_server_list_st self)$/;"	f
+memcached_server_list_free	server_list.cc	/^void memcached_server_list_free(memcached_server_list_st self)$/;"	f
+memcached_server_major_version	server.cc	/^uint8_t memcached_server_major_version(const memcached_instance_st * instance)$/;"	f
+memcached_server_micro_version	server.cc	/^uint8_t memcached_server_micro_version(const memcached_instance_st * instance)$/;"	f
+memcached_server_minor_version	server.cc	/^uint8_t memcached_server_minor_version(const memcached_instance_st * instance)$/;"	f
+memcached_server_name	server.cc	/^const char *memcached_server_name(const memcached_instance_st * self)$/;"	f
+memcached_server_port	server.cc	/^in_port_t memcached_server_port(const memcached_instance_st * self)$/;"	f
+memcached_server_push	hosts.cc	/^memcached_return_t memcached_server_push(memcached_st *shell, const memcached_server_list_st list)$/;"	f
+memcached_server_response_count	server.cc	/^uint32_t memcached_server_response_count(const memcached_instance_st * self)$/;"	f
+memcached_server_response_decrement	common.h	208;"	d
+memcached_server_response_increment	common.h	/^static inline void memcached_server_response_increment(memcached_instance_st* instance)$/;"	f
+memcached_server_response_reset	common.h	209;"	d
+memcached_server_srcport	server.cc	/^in_port_t memcached_server_srcport(const memcached_instance_st * self)$/;"	f
+memcached_server_type	server.cc	/^const char *memcached_server_type(const memcached_instance_st * ptr)$/;"	f
+memcached_server_write_instance_st	server_instance.h	/^typedef struct memcached_instance_st* memcached_server_write_instance_st;$/;"	t	typeref:struct:memcached_instance_st
+memcached_server_write_instance_st	server_instance.h	/^typedef void* memcached_server_write_instance_st;$/;"	t
+memcached_servers_parse	parse.cc	/^memcached_server_list_st memcached_servers_parse(const char *server_strings)$/;"	f
+memcached_servers_reset	memcached.cc	/^void memcached_servers_reset(memcached_st *shell)$/;"	f
+memcached_servers_set_count	server.cc	/^uint32_t memcached_servers_set_count(memcached_server_st *servers, uint32_t count)$/;"	f
+memcached_set	storage.cc	/^memcached_return_t memcached_set(memcached_st *ptr, const char *key, size_t key_length,$/;"	f
+memcached_set_aes	is.h	68;"	d
+memcached_set_allocated	is.h	91;"	d
+memcached_set_auto_eject_hosts	is.h	80;"	d
+memcached_set_binary	is.h	71;"	d
+memcached_set_buffering	is.h	73;"	d
+memcached_set_by_key	storage.cc	/^memcached_return_t memcached_set_by_key(memcached_st *ptr,$/;"	f
+memcached_set_cas	is.h	75;"	d
+memcached_set_configuration_file	options.cc	/^void memcached_set_configuration_file(memcached_st *self, const char *filename, size_t filename_length)$/;"	f
+memcached_set_encoding_key	encoding_key.cc	/^memcached_return_t memcached_set_encoding_key(memcached_st* shell, const char *key, size_t key_length)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(Memcached& memc, int local_errno, const char *at, memcached_string_t& str)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(Memcached& self, int local_errno, const char *at)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(Memcached& self, int local_errno, const char *at, const char *str, size_t length)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(memcached_instance_st& self, int local_errno, const char *at)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(memcached_instance_st& self, int local_errno, const char *at, const char *str, size_t length)$/;"	f
+memcached_set_errno	error.cc	/^memcached_return_t memcached_set_errno(memcached_instance_st& self, int local_errno, const char *at, memcached_string_t& str)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(Memcached& memc, memcached_return_t rc, const char *at, const char *str, size_t length)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(Memcached& memc, memcached_return_t rc, const char *at, memcached_string_t& str)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(Memcached& self, memcached_return_t rc, const char *at)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(memcached_instance_st& self, memcached_return_t rc, const char *at)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(memcached_instance_st& self, memcached_return_t rc, const char *at, const char *str, size_t length)$/;"	f
+memcached_set_error	error.cc	/^memcached_return_t memcached_set_error(memcached_instance_st& self, memcached_return_t rc, const char *at, memcached_string_t& str)$/;"	f
+memcached_set_fetching_version	is.h	72;"	d
+memcached_set_hash_with_namespace	is.h	78;"	d
+memcached_set_hashkit	hash.cc	/^memcached_return_t memcached_set_hashkit(memcached_st *shell, hashkit_st *hashk)$/;"	f
+memcached_set_initialized	is.h	90;"	d
+memcached_set_memory_allocators	allocators.cc	/^memcached_return_t memcached_set_memory_allocators(memcached_st *shell,$/;"	f
+memcached_set_namespace	namespace.cc	/^memcached_return_t memcached_set_namespace(Memcached& memc, const char *key, size_t key_length)$/;"	f
+memcached_set_no_block	is.h	77;"	d
+memcached_set_parser_error	error.cc	/^memcached_return_t memcached_set_parser_error(Memcached& memc,$/;"	f
+memcached_set_processing_input	is.h	89;"	d
+memcached_set_purging	purge.cc	42;"	d	file:
+memcached_set_randomize_replica_read	is.h	76;"	d
+memcached_set_ready	is.h	66;"	d
+memcached_set_replying	is.h	74;"	d
+memcached_set_sasl_auth_data	sasl.cc	/^memcached_return_t memcached_set_sasl_auth_data(memcached_st *, const char *, const char *)$/;"	f
+memcached_set_sasl_auth_data	sasl.cc	/^memcached_return_t memcached_set_sasl_auth_data(memcached_st *shell,$/;"	f
+memcached_set_sasl_callbacks	sasl.cc	/^void memcached_set_sasl_callbacks(memcached_st *, const sasl_callback_t *)$/;"	f
+memcached_set_sasl_callbacks	sasl.cc	/^void memcached_set_sasl_callbacks(memcached_st *shell,$/;"	f
+memcached_set_tcp_nodelay	is.h	79;"	d
+memcached_set_udp	is.h	69;"	d
+memcached_set_use_sort_hosts	is.h	81;"	d
+memcached_set_user_data	memcached.cc	/^void *memcached_set_user_data(memcached_st *shell, void *data)$/;"	f
+memcached_set_verify_key	is.h	70;"	d
+memcached_set_weighted_ketama	is.h	93;"	d
+memcached_stat	stats.cc	/^memcached_stat_st *memcached_stat(memcached_st *shell, char *args, memcached_return_t *error)$/;"	f
+memcached_stat_execute	stats.cc	/^memcached_return_t memcached_stat_execute(memcached_st *shell, const char *args,  memcached_stat_fn func, void *context)$/;"	f
+memcached_stat_free	stats.cc	/^void memcached_stat_free(const memcached_st *, memcached_stat_st *memc_stat)$/;"	f
+memcached_stat_get_keys	stats.cc	/^char ** memcached_stat_get_keys(memcached_st *shell,$/;"	f
+memcached_stat_get_value	stats.cc	/^char *memcached_stat_get_value(const memcached_st* shell, memcached_stat_st *memc_stat,$/;"	f
+memcached_stat_keys	stats.cc	/^static const char *memcached_stat_keys[] = {$/;"	v	file:
+memcached_stat_servername	stats.cc	/^memcached_return_t memcached_stat_servername(memcached_stat_st *memc_stat, char *args,$/;"	f
+memcached_storage_action_t	storage.cc	/^enum memcached_storage_action_t {$/;"	g	file:
+memcached_strcpy	array.c	/^memcached_array_st *memcached_strcpy(Memcached *memc, const char *str, size_t str_length)$/;"	f
+memcached_strerror	strerror.cc	/^const char *memcached_strerror(const memcached_st *, memcached_return_t rc)$/;"	f
+memcached_string_append	string.cc	/^memcached_return_t memcached_string_append(memcached_string_st *string,$/;"	f
+memcached_string_append_character	string.cc	/^memcached_return_t memcached_string_append_character(memcached_string_st *string,$/;"	f
+memcached_string_append_null	string.cc	/^static memcached_return_t memcached_string_append_null(memcached_string_st *string)$/;"	f	file:
+memcached_string_append_null	string.cc	/^static memcached_return_t memcached_string_append_null(memcached_string_st& string)$/;"	f	file:
+memcached_string_c_copy	string.cc	/^char *memcached_string_c_copy(memcached_string_st *string)$/;"	f
+memcached_string_c_str	string.cc	/^char *memcached_string_c_str(memcached_string_st& self)$/;"	f
+memcached_string_check	string.cc	/^memcached_return_t memcached_string_check(memcached_string_st *string, size_t need)$/;"	f
+memcached_string_create	string.cc	/^memcached_string_st *memcached_string_create(Memcached *memc, memcached_string_st *self, size_t initial_size)$/;"	f
+memcached_string_free	string.cc	/^void memcached_string_free(memcached_string_st *ptr)$/;"	f
+memcached_string_free	string.cc	/^void memcached_string_free(memcached_string_st& ptr)$/;"	f
+memcached_string_length	string.cc	/^size_t memcached_string_length(const memcached_string_st *self)$/;"	f
+memcached_string_length	string.cc	/^size_t memcached_string_length(const memcached_string_st& self)$/;"	f
+memcached_string_make_from_cstr	string.hpp	44;"	d
+memcached_string_reset	string.cc	/^void memcached_string_reset(memcached_string_st *string)$/;"	f
+memcached_string_resize	string.cc	/^bool memcached_string_resize(memcached_string_st& string, const size_t need)$/;"	f
+memcached_string_set	string.cc	/^bool memcached_string_set(memcached_string_st& string, const char* value, size_t length)$/;"	f
+memcached_string_set_length	string.cc	/^void memcached_string_set_length(memcached_string_st *self, size_t length)$/;"	f
+memcached_string_set_length	string.cc	/^void memcached_string_set_length(memcached_string_st& self, const size_t length)$/;"	f
+memcached_string_size	string.cc	/^size_t memcached_string_size(const memcached_string_st *self)$/;"	f
+memcached_string_take_value	string.cc	/^char *memcached_string_take_value(memcached_string_st *self)$/;"	f
+memcached_string_value	string.cc	/^const char *memcached_string_value(const memcached_string_st *self)$/;"	f
+memcached_string_value	string.cc	/^const char *memcached_string_value(const memcached_string_st& self)$/;"	f
+memcached_string_value_mutable	string.cc	/^char *memcached_string_value_mutable(const memcached_string_st *self)$/;"	f
+memcached_touch	touch.cc	/^memcached_return_t memcached_touch(memcached_st *ptr,$/;"	f
+memcached_touch_by_key	touch.cc	/^memcached_return_t memcached_touch_by_key(memcached_st *shell,$/;"	f
+memcached_validate_key_length	key.cc	/^static inline memcached_return_t memcached_validate_key_length(size_t key_length, bool)$/;"	f	file:
+memcached_vdo	do.cc	/^memcached_return_t memcached_vdo(memcached_instance_st* instance,$/;"	f
+memcached_verbosity	verbosity.cc	/^memcached_return_t memcached_verbosity(memcached_st *shell, uint32_t verbosity)$/;"	f
+memcached_version	version.cc	/^memcached_return_t memcached_version(memcached_st *shell)$/;"	f
+memcached_version_binary	version.cc	/^static inline memcached_return_t memcached_version_binary(Memcached *memc)$/;"	f	file:
+memcached_version_instance	version.cc	/^void memcached_version_instance(memcached_instance_st* instance)$/;"	f
+memcached_version_textual	version.cc	/^static inline memcached_return_t memcached_version_textual(Memcached *memc)$/;"	f	file:
+memcached_virtual_bucket_create	virtual_bucket.c	/^memcached_return_t memcached_virtual_bucket_create(memcached_st *self,$/;"	f
+memcached_virtual_bucket_free	virtual_bucket.c	/^void memcached_virtual_bucket_free(memcached_st *self)$/;"	f
+memcached_virtual_bucket_get	virtual_bucket.c	/^uint32_t memcached_virtual_bucket_get(const memcached_st *self, uint32_t digest)$/;"	f
+memcached_virtual_bucket_t	virtual_bucket.c	/^struct memcached_virtual_bucket_t {$/;"	s	file:
+message	error.cc	/^  char message[MAX_ERROR_LENGTH];$/;"	m	struct:memcached_error_t	file:
+micro_version	instance.hpp	/^  uint8_t micro_version; \/\/ ditto, and note that this is the third, not second version bit$/;"	m	struct:memcached_instance_st
+minor_version	instance.hpp	/^  uint8_t minor_version; \/\/ ditto$/;"	m	struct:memcached_instance_st
+network_connect	connect.cc	/^static memcached_return_t network_connect(memcached_instance_st* server)$/;"	f	file:
+next	error.cc	/^  struct memcached_error_t *next;$/;"	m	struct:memcached_error_t	typeref:struct:memcached_error_t::memcached_error_t	file:
+next_retry	instance.hpp	/^  time_t next_retry;$/;"	m	struct:memcached_instance_st
+nfds_t	poll.h	/^typedef int nfds_t;$/;"	t
+num_datagrams	udp.hpp	/^  uint16_t num_datagrams;$/;"	m	struct:udp_datagram_header_st
+options	instance.hpp	/^  } options;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::__anon1
+poll	poll.cc	/^int poll(struct pollfd fds[], nfds_t nfds, int tmo)$/;"	f
+pollfd	poll.h	/^typedef struct pollfd$/;"	s
+pollfd_t	poll.h	/^} pollfd_t;$/;"	t	typeref:struct:pollfd
+port	instance.hpp	/^  in_port_t port() const$/;"	f	struct:memcached_instance_st
+port	instance.hpp	/^  void port(in_port_t arg)$/;"	f	struct:memcached_instance_st
+port_	instance.hpp	/^  in_port_t port_;$/;"	m	struct:memcached_instance_st
+process_input_buffer	io.cc	/^static bool process_input_buffer(memcached_instance_st* instance)$/;"	f	file:
+query_id	error.cc	/^  uint64_t query_id;$/;"	m	struct:memcached_error_t	file:
+rc	error.cc	/^  memcached_return_t rc;$/;"	m	struct:memcached_error_t	file:
+read	instance.hpp	/^    uint32_t read;$/;"	m	struct:memcached_instance_st::__anon2
+read_buffer	instance.hpp	/^  char read_buffer[MEMCACHED_MAX_BUFFER];$/;"	m	struct:memcached_instance_st
+read_buffer_length	instance.hpp	/^  size_t read_buffer_length;$/;"	m	struct:memcached_instance_st
+read_data_length	instance.hpp	/^  size_t read_data_length;$/;"	m	struct:memcached_instance_st
+read_ptr	instance.hpp	/^  char *read_ptr;$/;"	m	struct:memcached_instance_st
+ready	instance.hpp	/^    bool ready;$/;"	m	struct:memcached_instance_st::__anon1
+repack_input_buffer	io.cc	/^static bool repack_input_buffer(memcached_instance_st* instance)$/;"	f	file:
+replicas	virtual_bucket.c	/^  uint32_t replicas;$/;"	m	struct:memcached_virtual_bucket_t	file:
+replication_binary_mget	get.cc	/^static memcached_return_t replication_binary_mget(memcached_st *ptr,$/;"	f	file:
+request_id	instance.hpp	/^  uint32_t request_id;$/;"	m	struct:memcached_instance_st
+request_id	udp.hpp	/^  uint16_t request_id;$/;"	m	struct:udp_datagram_header_st
+reserved	udp.hpp	/^  uint16_t reserved;$/;"	m	struct:udp_datagram_header_st
+reset_socket	io.cc	/^void memcached_instance_st::reset_socket()$/;"	f	class:memcached_instance_st
+resolve_names	sasl.cc	/^static memcached_return_t resolve_names(memcached_instance_st& server, char *laddr, size_t laddr_length, char *raddr, size_t raddr_length)$/;"	f	file:
+response_count	instance.hpp	/^  uint32_t response_count() const$/;"	f	struct:memcached_instance_st
+revents	instance.cc	/^void memcached_instance_st::revents(short arg)$/;"	f	class:memcached_instance_st
+revents	instance.hpp	/^  short revents(void)$/;"	f	struct:memcached_instance_st
+revents	poll.h	/^  short revents;$/;"	m	struct:pollfd
+root	array.c	/^  Memcached *root;$/;"	m	struct:memcached_array_st	file:
+root	error.cc	/^  Memcached *root;$/;"	m	struct:memcached_error_t	file:
+root	instance.hpp	/^  struct memcached_st *root;$/;"	m	struct:memcached_instance_st	typeref:struct:memcached_instance_st::memcached_st
+run_distribution	hosts.cc	/^memcached_return_t run_distribution(Memcached *ptr)$/;"	f
+sasl_shutdown_function	sasl.cc	/^static void sasl_shutdown_function()$/;"	f	file:
+sasl_startup_function	sasl.cc	/^static void sasl_startup_function(void)$/;"	f	file:
+sasl_startup_once	sasl.cc	/^static pthread_once_t sasl_startup_once= PTHREAD_ONCE_INIT;$/;"	v	file:
+sasl_startup_state	sasl.cc	/^static volatile int sasl_startup_state= SASL_OK;$/;"	v	file:
+sasl_startup_state_LOCK	sasl.cc	/^pthread_mutex_t sasl_startup_state_LOCK= PTHREAD_MUTEX_INITIALIZER;$/;"	v
+send_quit	quit.cc	/^void send_quit(Memcached *memc)$/;"	f
+send_quit_message	quit.cc	/^  memcached_return_t send_quit_message(memcached_instance_st* instance)$/;"	f	namespace:__anon3
+sequence_number	udp.hpp	/^  uint16_t sequence_number;$/;"	m	struct:udp_datagram_header_st
+server_add	hosts.cc	/^static memcached_return_t server_add(Memcached *memc, $/;"	f	file:
+server_failure_counter	instance.hpp	/^  uint32_t server_failure_counter;$/;"	m	struct:memcached_instance_st
+server_failure_counter_query_id	instance.hpp	/^  uint64_t server_failure_counter_query_id;$/;"	m	struct:memcached_instance_st
+server_timeout_counter	instance.hpp	/^  uint32_t server_timeout_counter;$/;"	m	struct:memcached_instance_st
+server_timeout_counter_query_id	instance.hpp	/^  uint32_t server_timeout_counter_query_id;$/;"	m	struct:memcached_instance_st
+set_data	stats.cc	/^static memcached_return_t set_data(memcached_stat_st *memc_stat, const char *key, const char *value)$/;"	f	file:
+set_hostinfo	connect.cc	/^static memcached_return_t set_hostinfo(memcached_instance_st* server)$/;"	f	file:
+set_last_disconnected_host	instance.cc	/^void set_last_disconnected_host(memcached_instance_st* self)$/;"	f
+set_socket_nonblocking	connect.cc	/^static inline void set_socket_nonblocking(memcached_instance_st* server)$/;"	f	file:
+set_socket_options	connect.cc	/^static bool set_socket_options(memcached_instance_st* server)$/;"	f	file:
+simple_binary_mget	get.cc	/^static memcached_return_t simple_binary_mget(memcached_st *ptr,$/;"	f	file:
+size	array.c	/^  size_t size;$/;"	m	struct:memcached_array_st	file:
+size	error.cc	/^  size_t size;$/;"	m	struct:memcached_error_t	file:
+size	virtual_bucket.c	/^  uint32_t size;$/;"	m	struct:memcached_virtual_bucket_t	file:
+sockaddr_un	windows.hpp	/^struct sockaddr_un$/;"	s
+sort_hosts	hosts.cc	/^static void sort_hosts(Memcached *ptr)$/;"	f	file:
+start_close_socket	io.cc	/^void memcached_instance_st::start_close_socket()$/;"	f	class:memcached_instance_st
+state	instance.hpp	/^  enum memcached_server_state_t state;$/;"	m	struct:memcached_instance_st	typeref:enum:memcached_instance_st::memcached_server_state_t
+storage_op_string	storage.cc	/^static inline const char *storage_op_string(memcached_storage_action_t verb)$/;"	f	file:
+sun_family	windows.hpp	/^  short int sun_family;$/;"	m	struct:sockaddr_un
+sun_path	windows.hpp	/^  char sun_path[108];$/;"	m	struct:sockaddr_un
+swap64	byteorder.cc	/^static inline uint64_t swap64(uint64_t in)$/;"	f	file:
+text_incr_decr	auto.cc	/^static memcached_return_t text_incr_decr(memcached_instance_st* instance,$/;"	f	file:
+textual_read_one_response	response.cc	/^static memcached_return_t textual_read_one_response(memcached_instance_st* instance,$/;"	f	file:
+textual_value_fetch	response.cc	/^static memcached_return_t textual_value_fetch(memcached_instance_st* instance,$/;"	f	file:
+timeouts	instance.hpp	/^    uint32_t timeouts;$/;"	m	struct:memcached_instance_st::__anon2
+translate_windows_error	windows.hpp	/^static inline int translate_windows_error()$/;"	f
+type	instance.hpp	/^  memcached_connection_t type;$/;"	m	struct:memcached_instance_st
+udp_datagram_header_st	udp.hpp	/^struct udp_datagram_header_st$/;"	s
+unix_socket_connect	connect.cc	/^static memcached_return_t unix_socket_connect(memcached_instance_st* server)$/;"	f	file:
+unlikely	common.h	181;"	d
+unlikely	common.h	186;"	d
+update_continuum	hosts.cc	/^static memcached_return_t update_continuum(Memcached *ptr)$/;"	f	file:
+valid	instance.cc	/^bool memcached_instance_st::valid() const$/;"	f	class:memcached_instance_st
+value	continuum.hpp	/^  uint32_t value;$/;"	m	struct:memcached_continuum_item_st
+version	instance.hpp	/^  uint32_t version;$/;"	m	struct:memcached_instance_st
+version_ascii_instance	version.cc	/^static inline void version_ascii_instance(memcached_instance_st* instance)$/;"	f	file:
+version_binary_instance	version.cc	/^static inline void version_binary_instance(memcached_instance_st* instance)$/;"	f	file:
+weight	instance.hpp	/^  uint32_t weight;$/;"	m	struct:memcached_instance_st
+write	instance.hpp	/^    uint32_t write;$/;"	m	struct:memcached_instance_st::__anon2
+write_buffer	instance.hpp	/^  char write_buffer[MEMCACHED_MAX_BUFFER];$/;"	m	struct:memcached_instance_st
+write_buffer_offset	instance.hpp	/^  size_t write_buffer_offset;$/;"	m	struct:memcached_instance_st
+~PollTimeout	purge.cc	/^  ~PollTimeout()$/;"	f	class:PollTimeout
+~Purge	purge.cc	/^  ~Purge()$/;"	f	class:Purge
